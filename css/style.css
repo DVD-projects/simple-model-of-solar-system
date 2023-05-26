@@ -7,7 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('img/b1.jpg');
+    background-image: url('../img/b1.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -30,7 +30,7 @@ body{
     width: 80px;
     height: 80px;
     /* background-color: red; */
-    background-image: url("img/sun.jpg");
+    background-image: url("../img/sun.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 100%;

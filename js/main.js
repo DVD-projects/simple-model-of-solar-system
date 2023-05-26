@@ -1,37 +1,3 @@
-// const orbit = document.createElement('div');
-// orbit.classList.add('orbit');
-// document.body.append(orbit);
-
-// const orbit = document.querySelector('.orbit');
-// const planet = document.querySelector('.planet');
-
-
-// let r1 = 300;
-// let r2 = 50;
-// let angle = 0;
-// planet.style.left=`${r1+r1*Math.cos(angle*(Math.PI/180))-r2}px`;
-// planet.style.top=`${r1-r1*Math.sin(angle*(Math.PI/180))-r2}px`;
-// setInterval(()=>{
-//     angle++;
-//     planet.style.left=`${r1+r1*Math.cos(angle*(Math.PI/180))-r2}px`;
-//     planet.style.top=`${r1-r1*Math.sin(angle*(Math.PI/180))-r2}px`;
-//     if (angle===360) angle=0;
-// },10)
-
-// class Orbit {
-//     elm;
-//     radius;
-//     constructor(radius){
-//         this.radius=radius;
-//         this.elm = document.createElement('div');
-//         this.elm.style.width=`${this.radius}px`
-//         this.elm.style.height=`${this.radius}px`
-//         this.elm.classList.add('orbit');
-//         document.body.append(this.elm);
-//     }
-// }
-
-
 
 class Orbit {
     orbitElm;
@@ -92,7 +58,7 @@ planets.push(new Orbit(900,80))
 
 setInterval(()=>{
     planets.forEach(planet=> planet.spinClockwise());
-},15)
+},40)
 
 
 

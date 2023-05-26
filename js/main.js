@@ -52,9 +52,9 @@ class Orbit {
         this.planetElm.style.height=`${this.d2}px`;
         this.orbitElm.classList.add('orbit');
         this.planetElm.classList.add('planet');
-        this.planetElm.style.backgroundImage=`linear-gradient(180deg, 
-            rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)}), 
-            rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)}))`
+        // this.planetElm.style.backgroundImage=`linear-gradient(180deg, 
+        //     rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)}), 
+        //     rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)}))`
         this.orbitElm.append(this.planetElm);
         document.body.append(this.orbitElm);
         this.planetElm.style.left=`${this.radius1+this.radius1*Math.cos(this.angle*(Math.PI/180))-this.radius2}px`;

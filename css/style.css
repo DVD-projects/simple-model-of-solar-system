@@ -30,7 +30,7 @@ body{
     width: 80px;
     height: 80px;
     /* background-color: red; */
-    background-image: url("/img/sun.jpg");
+    background-image: url("img/sun.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 100%;

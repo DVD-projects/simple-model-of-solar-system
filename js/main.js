@@ -96,8 +96,8 @@ setInterval(()=>{
 
 
 
-for (let i=1; i<= planets.length; i++){
-    planets[i].planetElm.style.backgroundImage=`url('img/${i}.jpeg')`;
+for (let i=0; i< planets.length; i++){
+    planets[i].planetElm.style.backgroundImage=`url('img/${i+1}.jpeg')`;
     planets[i].planetElm.style.backgroundPosition='center';
     planets[i].planetElm.style.backgroundCover='cover';
 }
